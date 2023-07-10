@@ -6,7 +6,7 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div>
-      <div className="h-[700px] flex justify-center items-center">
+      <div className="h-[650px] flex justify-center items-center">
         <button
           onClick={() => dispatch(increment())}
           className=" bg-green-500 p-4 rounded-xl mx-10"
